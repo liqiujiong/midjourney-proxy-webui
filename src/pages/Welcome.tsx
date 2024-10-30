@@ -150,7 +150,7 @@ const Welcome: React.FC = () => {
               color: token.colorTextHeading,
             }}
           >
-            {intl.formatMessage({ id: 'pages.welcome.link' })} Midjourney Proxy Admin
+            {intl.formatMessage({ id: 'pages.welcome.link' })} Midjourney Admin
           </div>
           <p
             style={{

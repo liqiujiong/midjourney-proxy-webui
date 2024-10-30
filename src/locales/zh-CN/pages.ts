@@ -36,7 +36,7 @@ export default {
 
 
   'pages.welcome.link': '欢迎使用',
-  'pages.welcome.description': 'Midjourney Proxy Admin 是一个 Midjourney Proxy 后台管理界面。致力于提供各种管理功能。',
+  'pages.welcome.description': 'Midjourney Admin 是一个 Midjourney Proxy 后台管理界面。致力于提供各种管理功能。',
   'pages.welcome.learn': '了解',
   'pages.welcome.midjourney-proxy': 'midjourney-proxy 是一个代理 MidJourney 的 discord 频道的开源项目，实现 api 形式调用 AI 绘图。',
   'pages.welcome.go-amz-ai': 'GoAmzAI 🤖️ 基于 Golang + Vue3 + NaiveUI 的全新的个人、团队、企业私有化AIGC平台',

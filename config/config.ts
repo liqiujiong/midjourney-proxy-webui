@@ -26,7 +26,7 @@ export default defineConfig({
    * @doc https://umijs.org/docs/api/config#hash
    */
   hash: true,
-  history: { type: 'hash' }, 
+  history: { type: 'hash' },
 
   /**
    * @name 兼容性设置
@@ -89,7 +89,7 @@ export default defineConfig({
    * @name layout 插件
    * @doc https://umijs.org/docs/max/layout-menu
    */
-  title: 'Midjourney Proxy Admin',
+  title: 'Midjourney Admin',
   layout: {
     locale: true,
     ...defaultSettings,

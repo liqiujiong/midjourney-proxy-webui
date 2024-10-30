@@ -37,7 +37,7 @@ export default {
 
   'pages.welcome.link': 'Welcome to',
   'pages.welcome.description':
-    'Midjourney Proxy Admin is a backend management interface for Midjourney Proxy, dedicated to providing various administrative functions.',
+    'Midjourney Admin is a backend management interface for Midjourney Proxy, dedicated to providing various administrative functions.',
   'pages.welcome.learn': 'About',
   'pages.welcome.learnMore': 'About More',
   'pages.welcome.midjourney-proxy':
