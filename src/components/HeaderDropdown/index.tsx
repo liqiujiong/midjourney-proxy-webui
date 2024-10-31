@@ -20,7 +20,7 @@ const HeaderDropdown: React.FC<HeaderDropdownProps> = ({ overlayClassName: cls, 
       },
     };
   });
-  return <><Tag bordered={false} style={{fontSize: '15px'}}>{currentUser?.version}</Tag><Dropdown overlayClassName={classNames(className, cls)} {...restProps} /></>;
+  return <><Dropdown overlayClassName={classNames(className, cls)} {...restProps} /></>;
 };
 
 export default HeaderDropdown;
