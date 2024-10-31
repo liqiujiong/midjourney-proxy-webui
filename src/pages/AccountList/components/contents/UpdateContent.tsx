@@ -173,9 +173,9 @@ const UpdateContent = ({
               <InputNumber min={1} />
             </Form.Item>
 
-            <Form.Item label={intl.formatMessage({ id: 'pages.account.sponsor' })} name="sponsor">
+            {/* <Form.Item label={intl.formatMessage({ id: 'pages.account.sponsor' })} name="sponsor">
               <Input />
-            </Form.Item>
+            </Form.Item> */}
             <Form.Item label={intl.formatMessage({ id: 'pages.account.remark' })} name="remark">
               <Input.TextArea autoSize={{ minRows: 1, maxRows: 6 }} />
             </Form.Item>

@@ -44,12 +44,12 @@ export default [
     path: '/domain',
     component: './DomainList/List',
   },
-  {
-    name: 'list.user-list',
-    icon: 'user',
-    path: '/user-list',
-    component: './UserList/List',
-  },
+//   {
+//     name: 'list.user-list',
+//     icon: 'user',
+//     path: '/user-list',
+//     component: './UserList/List',
+//   },
   {
     name: 'task-list',
     icon: 'bars',

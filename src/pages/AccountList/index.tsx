@@ -380,17 +380,17 @@ const AccountList: React.FC = () => {
     //   hideInSearch: true,
     //   render: (text: string, record: Record<string, any>) => record['displays']['nijiMode'],
     // } as ColumnType<Record<string, any>>,
-    {
-      title: intl.formatMessage({ id: 'pages.account.sponsor' }),
-      dataIndex: 'sponsor',
-      ellipsis: true,
-      width: 100,
-      sorter: true,
-      // 赞助商 - 富文本
-      render: (text: string, record: Record<string, any>) => (
-        <div dangerouslySetInnerHTML={{ __html: record.sponsor || '-' }} />
-      ),
-    } as ColumnType<Record<string, any>>,
+    // {
+    //   title: intl.formatMessage({ id: 'pages.account.sponsor' }),
+    //   dataIndex: 'sponsor',
+    //   ellipsis: true,
+    //   width: 100,
+    //   sorter: true,
+    //   // 赞助商 - 富文本
+    //   render: (text: string, record: Record<string, any>) => (
+    //     <div dangerouslySetInnerHTML={{ __html: record.sponsor || '-' }} />
+    //   ),
+    // } as ColumnType<Record<string, any>>,
     {
       title: intl.formatMessage({ id: 'pages.account.remark' }),
       dataIndex: 'remark',

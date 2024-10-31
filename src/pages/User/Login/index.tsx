@@ -130,7 +130,7 @@ const Login: React.FC = () => {
           {intl.formatMessage({ id: 'menu.login' })} - {Settings.title}
         </title>
       </Helmet>
-      <Lang />
+      {/* <Lang /> */}
       <div
         style={{
           flex: '1',

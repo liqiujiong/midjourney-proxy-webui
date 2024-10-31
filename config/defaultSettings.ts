@@ -10,14 +10,15 @@ const Settings: ProLayoutProps & {
   navTheme: 'light',
   // 拂晓蓝
   colorPrimary: '#1890ff',
-  layout: 'mix',
-  contentWidth: 'Fluid',
+  layout: 'top',
+  contentWidth: 'Fixed',
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
   title: 'Midjourney Admin',
   pwa: true,
   logo: './logo.svg',
+  menuHeaderRender: false,
   iconfontUrl: '',
   token: {
     // 参见ts声明，demo 见文档，通过token 修改样式

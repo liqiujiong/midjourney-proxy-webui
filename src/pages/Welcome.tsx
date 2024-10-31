@@ -116,6 +116,7 @@ const Welcome: React.FC = () => {
       {data && data.notify && (
         <Alert
           description={data.notify}
+          type='success'
           banner
           closable
           style={{
@@ -124,7 +125,7 @@ const Welcome: React.FC = () => {
         />
       )}
 
-      <Card
+      {/* <Card
         style={{
           borderRadius: 8,
         }}
@@ -191,7 +192,7 @@ const Welcome: React.FC = () => {
             />
           </div>
         </div>
-      </Card>
+      </Card> */}
 
       {data && (
         <Card
@@ -227,7 +228,7 @@ const Welcome: React.FC = () => {
             </Col>
           </Row>
 
-          <Divider orientation="left">{intl.formatMessage({ id: 'pages.welcome.top5' })}</Divider>
+          {/* <Divider orientation="left">{intl.formatMessage({ id: 'pages.welcome.top5' })}</Divider>
           <List
             dataSource={tops}
             renderItem={(item) => (
@@ -235,7 +236,7 @@ const Welcome: React.FC = () => {
                 <Tag>{item.ip}</Tag> {item.count} {intl.formatMessage({ id: 'pages.welcome.unit' })}
               </List.Item>
             )}
-          />
+          /> */}
         </Card>
       )}
     </PageContainer>

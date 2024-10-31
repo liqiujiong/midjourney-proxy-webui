@@ -156,7 +156,7 @@ const Setting: React.FC = () => {
                 title={intl.formatMessage({ id: 'pages.setting.accountSetting' })}
                 bordered={false}
               >
-                <Form.Item
+                {/* <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.enableSwagger' })}
                   name="enableSwagger"
                   extra={
@@ -171,9 +171,9 @@ const Setting: React.FC = () => {
                   }
                 >
                   <Switch />
-                </Form.Item>
+                </Form.Item> */}
 
-                <Form.Item
+                {/* <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.mongoDefaultConnectionString' })}
                   name="mongoDefaultConnectionString"
                 >
@@ -193,14 +193,14 @@ const Setting: React.FC = () => {
                   tooltip={intl.formatMessage({ id: 'pages.setting.isMongoAutoMigrateTips' })}
                 >
                   <Switch />
-                </Form.Item>
+                </Form.Item> */}
 
-                <Form.Item
+                {/* <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.maxCount' })}
                   name="maxCount"
                 >
                   <InputNumber min={-1} />
-                </Form.Item>
+                </Form.Item> */}
 
                 <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.accountChooseRule' })}
@@ -306,30 +306,30 @@ const Setting: React.FC = () => {
                   <Switch />
                 </Form.Item>
 
-                <Form.Item
+                {/* <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.enableRegister' })}
                   name="enableRegister"
                 >
                   <Switch />
-                </Form.Item>
-                <Form.Item
+                </Form.Item> */}
+                {/* <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.registerUserDefaultDayLimit' })}
                   name="registerUserDefaultDayLimit"
                 >
                   <InputNumber min={-1} />
-                </Form.Item>
-                <Form.Item
+                </Form.Item> */}
+                {/* <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.enableGuest' })}
                   name="enableGuest"
                 >
                   <Switch />
-                </Form.Item>
-                <Form.Item
+                </Form.Item> */}
+                {/* <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.guestDefaultDayLimit' })}
                   name="guestDefaultDayLimit"
                 >
                   <InputNumber min={-1} />
-                </Form.Item>
+                </Form.Item> */}
 
                 <Form.Item
                   label={intl.formatMessage({ id: 'pages.setting.bannedLimiting' })}
